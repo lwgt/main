@@ -1,0 +1,38 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-color: #171726;
+    color: #6A4E83;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.topbar {
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+    color: rgb(115, 103, 181);
+    font-size: 125%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+.topbar a {
+    transition: all 0.3s ease;
+}
+.topbar a:visited {
+    color: rgb(115, 103, 181);
+}   
+.topbar a:hover {
+    color: #67B59A;
+    transform: scale(1.15);
+    text-decoration: underline;
+}
+.topbar a:active {
+    color: #b56767;
+    transform: scale(1.15);
+}
+
